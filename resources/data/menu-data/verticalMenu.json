@@ -1,0 +1,233 @@
+{
+  "menu" : [
+    {
+      "name": "پیشخوان",
+      "icon": "home",
+      "slug": "cms.dashboard",
+      "url": "cms/"
+    },
+
+    {
+      "name": "محصولات",
+      "icon": "box",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cms/products/create",
+          "name": "محصول جدید",
+          "icon": "circle",
+          "slug": "cms.products.create"
+        },
+        {
+          "url": "cms/products",
+          "name": "فهرست محصولات",
+          "icon": "circle",
+          "slug": "cms.products.index"
+        }
+      ]
+    },
+
+    {
+      "name": "سفارشات",
+      "url": "cms/orders",
+      "icon": "shopping-bag",
+      "slug": "cms.orders.index"
+    },
+
+
+    {
+      "name": "دسته بندی",
+      "icon": "grid",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cms/categories/create",
+          "name": "دسته بندی جدید",
+          "icon": "circle",
+          "slug": "cms.categories.create"
+        },
+        {
+          "url": "cms/categories",
+          "name": "فهرست دسته بندی ها",
+          "icon": "circle",
+          "slug": "cms.categories.index"
+        }
+      ]
+    },
+
+
+    {
+      "name": "اخبار",
+      "icon": "file-text",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cms/posts",
+          "name": "فهرست اخبار",
+          "icon": "circle",
+          "slug": "cms.posts.index"
+        },
+        {
+          "url": "cms/posts/create",
+          "name": "خبر جدید",
+          "icon": "circle",
+          "slug": "cms.posts.create"
+        }
+      ]
+    },
+    {
+      "name": "مدیریت فایل",
+      "icon": "save",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cms/filemanager/doc",
+          "name": "اسناد",
+          "icon": "circle",
+          "slug": "cms.lfm.doc"
+        },
+        {
+          "url": "cms/filemanager/photo",
+          "name": "تصاویر",
+          "icon": "circle",
+          "slug": "cms.lfm.photo"
+        }
+      ]
+    },
+    {
+      "name": "فرم ساز",
+      "icon": "file",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cms/forms",
+          "name": "فهرست فرم ها",
+          "icon": "circle",
+          "slug": "cms.forms.index"
+        },
+        {
+          "url": "cms/forms/create",
+          "name": "ساخت فرم جدید",
+          "icon": "circle",
+          "slug": "cms.forms.create"
+        }
+      ]
+    },
+    {
+      "name": "صفحه ساز",
+      "icon": "file",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cms/templates",
+          "name": "فهرست صفحات",
+          "icon": "circle",
+          "slug": "cms.templates.index"
+        },
+        {
+          "url": "cms/templates/create",
+          "name": "ساخت صفحه جدید",
+          "icon": "circle",
+          "slug": "cms.templates.create"
+        }
+      ]
+    },
+    {
+      "name": "منو ساز",
+      "url": "cms/menus",
+      "icon": "sliders",
+      "slug": "cms.menus.index"
+    }, {
+      "name": "فعالیت ها",
+      "url": "cms/activities",
+      "icon": "list",
+      "slug": "cms.activities.index"
+    }, {
+      "name": "ارسال پیام",
+      "url": "cms/send-notify",
+      "icon": "phone",
+      "slug": "cms.notify.index"
+    },
+    {
+      "name": "پیام ها",
+      "url": "cms/contact_requests",
+      "icon": "message-square",
+      "slug": "cms.contact_requests.index"
+    },
+    {
+      "name": "تنظیمات",
+      "icon": "tool",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cms/setting",
+          "name": "عمومی",
+          "icon": "circle",
+          "slug": "cms.setting"
+        },
+        {
+          "url": "cms/localization",
+          "name": "ترجمه کلمات",
+          "icon": "circle",
+          "slug": "cms.localization"
+        },
+        {
+          "name": "زبان",
+          "icon": "circle",
+          "slug": "",
+          "submenu": [
+            {
+              "url": "cms/languages",
+              "name": "فهرست زبان ها",
+              "icon": "circle",
+              "slug": "cms.languages.index"
+            },
+            {
+              "url": "cms/languages/create",
+              "name": "زبان جدید",
+              "icon": "circle",
+              "slug": "cms.languages.create"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "سوالات متداول",
+      "icon": "help-circle",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cms/questions/create",
+          "name": "سوال متداول جدید",
+          "icon": "circle",
+          "slug": "cms.questions.create"
+        },
+        {
+          "url": "cms/questions",
+          "name": "فهرست سوالات متداول",
+          "icon": "circle",
+          "slug": "cms.questions.index"
+        }
+      ]
+    } ,{
+      "name": "نظرات",
+      "icon": "message-circle",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cms/comments/create",
+          "name": "نظر جدید",
+          "icon": "circle",
+          "slug": "cms.comments.create"
+        },
+        {
+          "url": "cms/comments",
+          "name": "فهرست نظرات",
+          "icon": "circle",
+          "slug": "cms.comments.index"
+        }
+      ]
+    }
+  ]
+}

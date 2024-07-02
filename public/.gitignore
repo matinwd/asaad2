@@ -1,0 +1,9 @@
+/css/
+/front/
+/data/
+/fonts/
+/images/
+/js/
+/vendors/
+!/store/
+!.gitignore

@@ -1,0 +1,17 @@
+*.zip
+*.txt
+*.text
+
+/vendor/
+/.idea
+/zzic/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+
+storage/*.key
+
+# Laravel IDE helper
+*.meta.*
+_ide_*
